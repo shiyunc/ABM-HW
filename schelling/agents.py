@@ -24,7 +24,7 @@ class SchellingAgent(Agent):
             # Modification: The random number (larger or equal to 0, smaller than 1) represents the circumstances of the agent.
             # It is random, because various factors influence the individual's ability to move. 
             # This can include financial affordability, determination, job market competence, family structure, etc.  
-            # 
+            # When the circumstances are good enough (larger than the societal friction), the agent will be able to move. 
             if random.random() > self.model.friction: 
                 self.model.grid.move_to_empty(self)
         else: 
