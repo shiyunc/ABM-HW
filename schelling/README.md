@@ -8,7 +8,7 @@ The Schelling segregation model is a classic agent-based model, demonstrating ho
 
 Even in runs where the agents would be perfectly happy with a majority of their neighbors being of a different color (e.g. a Blue agent would be happy with five Red neighbors and three Blue ones), the model consistently leads to a high degree of segregation, with most agents ending up with no neighbors of a different color.
 
-## Improvement on the original model
+## Improvements on the Original Model
 
 Despite its significance, the original model overlooks the societal frictions that restrict individuals from moving freely. In this study, I introduced relational mobility to the model and explored how it influenced the agents’ behavioral pattern and the segregation outcome. Relational mobility represents how much flexibility a society affords individuals to create and dispose of social relationships based on personal preference. I added a parameter called "friction". High friction represents low relational mobility. For each agent in each round, a random number is generated to represent the circumstances of the agent. Only when the circumstances are good enough to overcome the friction can the agent move. This design makes the model more realistic and increases the interaction between the individual behavior and the social environment. 
 
