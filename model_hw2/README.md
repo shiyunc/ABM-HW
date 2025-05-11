@@ -10,7 +10,6 @@ In this study, we assume that in a rapidly changing (volatile) society, horizont
 
 We simulate the extent of social change by adjusting the "key to success" in diffrent generations. Within each generation, an agent have 5 rounds to learn from either their successful peers or their senior role models, based on their social learning type. Their goal is to change their strategy toward to "key to success". The more similar their strategy is to key, the higher gain they earn. We will examine which type of learners earn the higher average gain to decide which social learning strategy is more adaptive in a certain society. 
 
-
 ## How to Run
 
 To run the model interactively once you have a complete agents file, run the following code in this directory:
