@@ -55,7 +55,7 @@ class StrategyModel(mesa.Model):
             self.grid.place_agent(agent, cell)
             self.schedule.add(agent)
 
-    # Initialize a new generation. Change the key to the current generation. 
+    # Initialize a new generation of agents. Change the key for the current generation. 
     def step(self):
         if self.round == 0:
             self.key_matrix = self.mutate_key_matrix()
