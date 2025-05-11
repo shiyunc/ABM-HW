@@ -63,7 +63,7 @@ class StrategyModel(mesa.Model):
             self.init_agents() 
         self.schedule.step()
         self.round = (self.round + 1) % 5
-        # When a generation reaches its end, selece new role models. 
+        # When a generation reaches its end, select new role models. 
         # TODO: need to finalize how to deal with older role models here. 
         if self.round == 0:  
             self.select_role_models()
