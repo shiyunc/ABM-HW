@@ -1,5 +1,3 @@
-*Code adapted from Mesa Examples project*
-
 # Horizontal vs. Vertical Social Learning in a Volatile Society
 
 ## Summary
