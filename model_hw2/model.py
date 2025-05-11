@@ -69,9 +69,9 @@ class StrategyModel(mesa.Model):
             self.select_role_models()
         self.datacollector.collect(self)
 
-    # keep the most successful agents as role models into the next generation. 
+    # keep the most successful agents as role models for the next generation. 
     # TODO: role models can be kept for only one generation. In other words, the calculation and elimination 
-    # at the end of each generation include only active agents. Role models will be eliminated at the third generation
+    # at the end of each generation include only active agents. Role models will be eliminated in the third generation
     # after it was created. 
     def select_role_models(self):
         agents = list(self.schedule.agents)
